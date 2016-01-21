@@ -1,0 +1,41 @@
+{
+  "name": "tokens-saml20",
+  "version": "0.0.0",
+  "description": "Encode and decode SAML 2.0 security tokens.",
+  "keywords": [
+    "saml"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/node-tokens-saml20.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/node-tokens-saml20/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "moment": "^2.11.1",
+    "xtraverse": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
